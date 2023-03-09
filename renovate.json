@@ -3,5 +3,11 @@
   "extends": ["config:base"],
   "prHourlyLimit": 5,
   "schedule": ["after 10am every weekday"],
-  "timezone": "UTC"
+  "timezone": "UTC",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "labels": ["UPDATE-NON-MAJOR"]
+    }
+  ]
 }
