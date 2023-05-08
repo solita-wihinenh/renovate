@@ -8,12 +8,19 @@
     {
       "matchUpdateTypes": ["minor", "patch"],
       "labels": ["UPDATE-NON-MAJOR"],
-      "group": true
+      "group": true,
+      "enabled": false
     },
     {
       "matchUpdateTypes": ["major"],
       "labels": ["UPDATE-MAJOR"],
-      "group": true
+      "group": true,
+      "enabled": false
+    },
+    {
+      "groupName": "all",
+      "group": true,
+      "enabled": true
     }
   ]
 }
