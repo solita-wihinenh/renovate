@@ -18,6 +18,7 @@
       "enabled": false
     },
     {
+      "matchPackagePatterns": [".*"],
       "groupName": "all",
       "group": true,
       "enabled": true
