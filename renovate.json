@@ -7,11 +7,13 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
-      "labels": ["UPDATE-NON-MAJOR"]
+      "labels": ["UPDATE-NON-MAJOR"],
+      "group": true
     },
     {
       "matchUpdateTypes": ["major"],
-      "labels": ["UPDATE-MAJOR"]
+      "labels": ["UPDATE-MAJOR"],
+      "group": true
     }
   ]
 }
